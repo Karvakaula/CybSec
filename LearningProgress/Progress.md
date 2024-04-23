@@ -6,6 +6,8 @@ I come into this journey with a foundation in several key areas:
 - **Cryptography**: Gained knowledge about cryptography through my school's cryptography course.
 - **Networking**: Acquired a solid foundation in networking through my networks course.
 
+### [link to networks course](./Network_studies/)
+
 - **Cyber Security and Ethical Hacking**: Currently learning the basics of cyber security and ethical hacking through a dedicated course.
 - **Programming Languages and Web Development**: Possess a good foundation in a variety of programming languages and web development.
 - **Web application security**: I have some experience on securing web applications for example with HTTPS protocol, api endpoint security, security headers, input validation
