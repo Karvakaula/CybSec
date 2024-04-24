@@ -492,8 +492,52 @@ for example truster to internal zone traffic
 
 **All doors normalyl unlocked**
 
+- opening one door causes others to lock
+
 **All dors normally locked**
+
+- unlocking one3 door prevents otherts from unlocking
 
 **One door open / other locked**
 
+- when one is open, the other cannot be unlocked
+
 **One at a time, controlled groups**
+
+- managed control trough an area
+
+### Fencing
+
+pretty self explaintory, can be transparent or opaque, should be robust
+on more secured areas prevent climbing with razor wire/make it higher or both
+
+### Video surveillance
+
+**CCTV( closed circuit television)**
+
+- can replace physical guards
+
+**Features important**
+
+- Motion recognition can alarm/alert when something moves
+- Object detection can identifyu license plates or faces
+
+**Often many different cameras**
+
+- networged together and records data to 1 single storage point
+
+**Security guard**
+
+- physical protection at specified area
+- validates identification of employees
+  **Two person integrity/control**
+- minimazer exposure to an attack
+- no signe person has access to a physical asset
+
+**Access badge**
+
+- picture, name , other details
+- must be worn at all times
+- electronically logged, can badge into a room and movement to areas can be logged
+
+## Lighting 
