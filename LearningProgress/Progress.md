@@ -20,30 +20,29 @@ I come into this journey with a foundation in several key areas:
 - [ ] Gain hands-on experience through practical projects.
 - [ ] Network
 - [ ] Obtain relevant certifications (e.g., CompTIA Security+, CompTIA Network + , CISSP).
+- [x] cyber security basics course
 
 ## Learning Resources
 
-- **Books**: [Title of Book] by Author
-- **Online Courses**: [Course Name] on [Platform]
-- **Tutorials**: [Tutorial Name] on [Website]
 - **School Courses**
-- **Hack The Box**
+- **Try Hack Me**
 - **Vulnhub**
 - **OWASP**
-- **CCompTIA Security+ Study Guide: Exam SY0-601**
+- **CCompTIA Security+ Study Guide: Exam SY0-701**
 
 ## Current Progress
 
 - Completed networking fundamentals course.
 - Currently studying towards CompTIA security + SY0-701
 - Started practical projects focusing on web application security.
+- exploring network scanning and listening using Nmap and wireshark
 
 ## Projects
 
 ### Hacking challenges
 
-- **Vulnhub-Pwnlab**: Did a hacking challenge as a part of cyber security course and documented it (link to doc here)
-- **Badstore**: Pretty easy hacking challenge as a part of cyber security course. (link here)
+- **Vulnhub-Pwnlab**: Did a hacking challenge as a part of cyber security course and documented it [Pwnlab](./Challenge_docs/Pwnlab/Doc.md)
+- **Badstore**: Pretty easy hacking challenge as a part of cyber security course. [Badstore](./Challenge_docs/Badstore.net/doc.md)
 
 ### Project 1: Tukko 2.0, web application security
 

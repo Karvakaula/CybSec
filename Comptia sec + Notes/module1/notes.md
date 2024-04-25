@@ -540,4 +540,86 @@ on more secured areas prevent climbing with razor wire/make it higher or both
 - must be worn at all times
 - electronically logged, can badge into a room and movement to areas can be logged
 
-## Lighting 
+### Lighting 
+
+**more light more security**
+
+- consider overall light level
+- lightning angles etc
+
+### Sensors
+
+**Infrared**
+- detects in light and dark
+- common in motion detectors
+
+**Pressure**
+- detects change in force, can be florand window sensors
+
+**Microwave**
+- detect movement in larger areas
+
+**Ultrasonic**
+- even larger
+
+### Decveiption and distruption
+
+## Honeypots
+**Attracts attackers**
+Honeypots create a virtual "world" to explore for the attacker/attacker machine, so we can study the attacker 
+
+### Honeynets
+**a real network includes more than a single device**
+- servers, workstations, ruter, switches, firewalls
+
+## Honeyfiles
+**files that attract attacker**
+- for example passowrds.txt, may be attractive
+**An alert is sent if the file is accessed**
+- basicly a bear trap
+
+### Honeytokens
+
+**Track the maliciour actors**
+- add traceable data to the honeynet
+- if data is stolen, you know it came from you honeynet
+
+**Api credentials**
+- does not actualy provice access
+- notifications are sent when used
+
+**Fake email addresses and many others**
+- database records, cookies, web page pixels, etc...
+
+## Change management
+
+making a change = Updgrade software, pach application, change firewall configuration, modify switch ports etc...
+
+in organisation this may effect thousands of systems
+
+**one of the most common risks in the enterprise**
+- occurs frequently
+
+**Ofren overlooked or ignored**
+
+**Have clear policies**
+- frequency, duration, inmstallation process, rollback procedures
+
+**sometimes hard to implement**
+
+### Change apåprovall process
+**a formal proces for managing change**
+- avoud downtime, confusio and mistakes
+
+**Typical approval process**
+- complete request forms
+- determine the purpose of the change
+- identify the scope of the change ( how many systems etc)
+- schedure a date and time of the change 
+- determine affected systems and the impoact 
+- analyze the risk asssociated with the change ( for example, cant do this change furing a busi time)
+- get approval from the change control board 
+- Get end-user feedback after completed change
+
+### ownership
+
