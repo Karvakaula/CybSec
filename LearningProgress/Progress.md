@@ -19,7 +19,8 @@ I come into this journey with a foundation in several key areas:
 - [ ] Learn various cybersecurity tools and techniques.
 - [ ] Gain hands-on experience through practical projects.
 - [ ] Network
-- [ ] Obtain relevant certifications (e.g., CompTIA Security+, CompTIA Network + , CISSP).
+- [ ] Obtain CompTIA sec + SY0-701 certificate
+- [ ] Obtain Google cyber security professional certificate
 - [x] cyber security basics course
 
 ## Learning Resources
@@ -33,7 +34,8 @@ I come into this journey with a foundation in several key areas:
 ## Current Progress
 
 - Completed networking fundamentals course.
-- Currently studying towards CompTIA security + SY0-701
+- Currently studying towards Google professional CybSec certification
+- tryHackme  
 - Started practical projects focusing on web application security.
 - exploring network scanning and listening using Nmap and wireshark
 

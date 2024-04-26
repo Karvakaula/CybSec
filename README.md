@@ -18,4 +18,5 @@ I'm passionate about cybersecurity and dedicated to learning and growing in this
 
 ## Current goal
 
-As i'm starting my third year at Jamk, im going to specialice in cyber security. During summer 2024 my goal is to gain CompTIA security + SY0-701 certificate, and i am currently studying towards it while expanding my knowledge on overall cyber security.
+As i'm starting my third year at Jamk, im going to specialice in cyber security. During summer 2024 my goal is to gain CompTIA security + SY0-701 certificate, and google professional cyber security certificate and i am currently studying towards those 2 while expanding my knowledge on overall cyber security.
+I' also creating my own "SOC" lab environment for hands-on experience on SIEM tools

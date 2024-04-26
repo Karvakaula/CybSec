@@ -65,3 +65,8 @@ I come into this journey with a foundation in several key areas:
 - started youtube course toward CompTIA sec + , link downbelow
 
 [professor_messer](https://www.youtube.com/watch?v=KiEptGbnEBc&list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv)
+
+### [24.4.2024]
+
+- decided to first aquite google cybsec professional certificate due its cheaper price
+- started to progress on TryHackMe
