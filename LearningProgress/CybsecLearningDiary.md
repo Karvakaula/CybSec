@@ -56,17 +56,20 @@ I come into this journey with a foundation in several key areas:
 - Studied TCP
 - studied SSL/TLS
 
-### [22.4.2024]
-
-- started to study towards CompTIA security + SY0-701, planning on taking the exam during summer 2024
-- Finished CyberSecurity Course on JAMK
-- took the CybSec exam on CyberSecurity course and passed
-- ordered CompTIA studying materials and test exams
-- started youtube course toward CompTIA sec + , link downbelow
-
-[professor_messer](https://www.youtube.com/watch?v=KiEptGbnEBc&list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv)
-
 ### [24.4.2024]
 
-- decided to first aquite google cybsec professional certificate due its cheaper price
+- decided to first aquire google cybsec professional certificate due its cheaper price, then move to either Blue team 1 or CompTIA sec +
 - started to progress on TryHackMe
+
+### [28.4.2024]
+
+- began SOC level 1 path on tryhackme
+
+### [30.4.2024]
+
+- continued on SOC level 1 path
+
+### [1.5.2024]
+
+- almost finished pre security path
+- finished introduction to cyber security path

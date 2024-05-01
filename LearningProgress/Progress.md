@@ -35,9 +35,15 @@ I come into this journey with a foundation in several key areas:
 
 - Completed networking fundamentals course.
 - Currently studying towards Google professional CybSec certification
-- tryHackme  
+- tryHackme
 - Started practical projects focusing on web application security.
 - exploring network scanning and listening using Nmap and wireshark
+
+## Try hack me paths
+
+[] pre security, currently 75%
+[x] introduction to Cyber Security
+[] SOC Level 1, currently 5%
 
 ## Projects
 
@@ -58,9 +64,3 @@ I come into this journey with a foundation in several key areas:
   - Secure user authentication, express-session management, input validation, password hashing using Bcrypt.
 - **Documentation**
   (link here)
-
-### Project 2: Web Application Security
-
-- **Description**: Conduct a security assessment of a web application, identify common vulnerabilities, and propose mitigation strategies.
-- **Technologies**: OWASP Top 10, Burp Suite, Metasploit
-- **Status**: Planning stage
