@@ -6,6 +6,8 @@ Welcome to my CybSec repository! Here, I document my journey towards becoming a 
 
 ### [Progress](./LearningProgress/Progress.md)
 
+### [TryHackMe paths](.\LearningProgress/THM_certs/certs.md)
+
 This document tracks my overall progress in learning cybersecurity concepts, tools, and techniques, and also my TryHackMe progress.
 
 ### [Learning Diary](./LearningProgress/CybsecLearningDiary.md)
