@@ -2,6 +2,19 @@
 
 # Intro
 
+**Some common vocabulary**
+
+- C2 = Command and Control Infrastructure
+- SIEM = Security information and event management
+- TTP = Tactics, techniques and procedures
+- IDS = Intrusion Detection System
+- EDR = Endpoint Detection and Response
+- IOC = Indicators of Compromise
+- CVE = Common Vulnerabilities and Exposures
+- APTs = Advanced Persistent Threats
+- RATs - Remote Access Tools
+- MITRE ATT&CK® = knowledge base of adversary tactics and techniques based on real-world scenarios
+
 ## Responsibilities
 
 - Monitor and investigate alerts
@@ -174,3 +187,160 @@ MalwareBazaar and Malshare are good resources.
 - helps to perform similarity analysis
 - match two files with minor differences based on the fuzzy hash values.
 - complete explanation : https://ssdeep-project.github.io/ssdeep/index.html
+
+## TTPs
+
+**Tactics, techniques and procedures**
+
+includes MITRE ATT&CK matrix:
+![alt text](image-13.png)
+
+# Cyber Kill Chain
+
+The framework defines the steps used by adversaries or malicious actors in cyberspace
+You can use the Cyber Kill Chain to assess your network and system security by identifying missing security controls and closing certain security gaps based on your company's infrastructure.
+
+![alt text](image-14.png)
+
+## Recon/reconnaisance
+
+**discovering and collecting information on the system and the victim**
+
+**OSINT(Open-source-intelligence)**
+
+- also falls under recon
+- study the victim by collecting every available piece of information
+  - company size
+  - email addresses
+  - phone numbers
+- you can find ALOT of information just by googling
+
+![alt text](image-15.png)
+
+**email harvesting**
+
+- process to obtain email addresses from public, paid or free services
+
+some recon tools:
+
+- TheHarvester other than gathering emails, this tool is also capable of gathering names, subdomains, IPs, and URLs using multiple public data sources
+- Hunter.io - this is an email hunting tool that will let you obtain contact information associated with the domain
+- OSINT Framework - OSINT Framework provides the collection of OSINT tools based on various categories
+
+An attacker would also use social media websites such as LinkedIn, Facebook, Twitter, and Instagram to collect information on a specific victim he would want to attack or the company. The information found on social media can be beneficial for an attacker to conduct a phishing attack.
+
+## Weaponization
+
+Malware is a program or software that is designed to damage, disrupt, or gain unauthorized access to a computer.
+
+An exploit is a program or a code that takes advantage of the vulnerability or flaw in the application or system.
+
+A payload is a malicious code that the attacker runs on the system
+
+In the Weaponization phase, the attacker would:
+
+Create an infected Microsoft Office document containing a malicious macro or VBA (Visual Basic for Applications) scripts. If you want to learn about macro and VBA, please refer to the article "Intro to Macros and VBA For Script Kiddies" by TrustedSec.
+
+An attacker can create a malicious payload or a very sophisticated worm, implant it on the USB drives, and then distribute them in public. An example of the virus.
+
+An attacker would choose Command and Control (C2) techniques for executing the commands on the victim's machine or deliver more payloads. You can read more about the C2 techniques on MITRE ATT&CK.
+
+An attacker would select a backdoor implant (the way to access the computer system, which includes bypassing the security mechanisms).
+
+## Delivery
+
+**delivery phase is when attacked choses the method for transmitting the payload or the malware**
+
+### some options for delivery
+
+**Phishing email:**
+after conducting the reconnaissance and determining the targets for the attack, the malicious actor would craft a malicious email that would target either a specific person (spearphishing attack) or multiple people in the company. The email would contain a payload or malware. For example, "Megatron" would learn that Nancy from the Sales department at company A would constantly like the posts on LinkedIn from Scott, a Service Delivery Manager at company B. He would give it a second guess that they both communicate with each other over work emails. "Megatron" would craft an email using Scott's First Name and Last Name, making the domain look similar to the company Scott is working at. An attacker would then send a fake "Invoice" email to Nancy, which contains the payload.
+**infected USB drives / The BadUSB**
+
+**Watering hole attack.**
+A watering hole attack is a targeted attack designed to aim at a specific group of people by compromising the website they are usually visiting and then redirecting them to the malicious website of an attacker's choice. The attacker would look for a known vulnerability for the website and try to exploit it. The attacker would encourage the victims to visit the website by sending "harmless" emails pointing out the malicious URL to make the attack work more efficiently. After visiting the website, the victim would unintentionally download malware or a malicious application to their computer. This type of attack is called a drive-by download. An example can be a malicious pop-up asking to download a fake Browser extension.
+
+## Exploitation
+
+to gain access to the system, an attacker needs to exploit the vulnerability
+
+After gaining access to the system, the malicious actor could exploit software, system, or server-based vulnerabilities to escalate the privileges or move laterally through the network.
+
+**Lateral Movement**
+
+- refers to techniques that a malicious actor uses after gaining initial access to the victim's machine to move deeper into a network to obtain sensitive data
+
+The attacker might also apply a "Zero-day Exploit" in this stage.
+
+- an unknown exploit in the wild that exposes a vulnerability in software or hardware and can create complicated problems well before anyone realizes something is wrong.
+- A zero-day exploit leaves NO opportunity for detection at the beginning.
+
+**These are examples of how an attacker carries out exploitation:**
+
+- The victim triggers the exploit by opening the email attachment or clicking on a malicious link.
+- Using a zero-day exploit.
+- Exploit software, hardware, or even human vulnerabilities.
+- An attacker triggers the exploit for server-based vulnerabilities.
+
+## Installation
+
+Once the attacker gets access to the system, he would want to reaccess the system if he loses the connection to it or if he got detected and got the initial access removed, or if the system is later patched
+
+A persistent backdoor will let the attacker access the system he compromised in the past.
+
+**persistence can be achiever through:**
+
+**Installing a web shell**
+
+- a malicious script written in web-development programming languages such as ASP,PHP, JSP
+- can be difficult to detect due simplicity and file formatting (.php,.asp, .jsp, etc)
+
+**installing a backdoor on victims machine**
+
+- for example can use Meterpreter for installation
+  - meterpreter is a metasploit framework payload
+  - gives interactive shell for remote interacting and executing malicious code
+
+**Creating or modifying windows services**
+
+- known as T1543.003 on MITRE ATT&CK
+- attacker can create/modify windows services to execute scripts or payloads as a part of the persistence
+- can use tools like sc.exe
+  - sc.exe lets you Create, Start, Stop, Query, or Delete any Windows Service
+- can use Reg to modify service confs.
+- masquerade the malicious payload by using service name that is known to be related to operating system or legit software
+
+**Adding the entry to the "run keys" For the malicious payload**
+
+- this is done in the registry or the startup folder
+- the payload will be executed on user log in
+
+[more on reg run keys / startup folder](https://attack.mitre.org/techniques/T1547/001/)
+
+In this phase, the attacker can also use the Timestomping technique to avoid detection by the forensic investigator and also to make the malware appear as a part of a legitimate program. The Timestomping technique lets an attacker modify the file's timestamps, including the modify, access, create and change times.
+
+## Commant and controll (C2)
+
+This term is also known as C&C or C2 Beaconing as a type of malicious communication between a C&C server and malware on the infected host. The infected host will consistently communicate with the C2 server; that is also where the beaconing term came from.
+
+The compromised endpoint would communicate with an external server set up by an attacker to establish a command & control channel. After establishing the connection, the attacker has full control of the victim's machine.
+
+**The most common C2 channels used by adversaries nowadays:**
+
+- HTTP on Port 80
+- HTTPS on port 443
+  - this type of beaconing blends the malicious traffic with the legitimate traffic and can help the attacker evade firewalls.
+- DNS(Domain name server)
+  - the infected machine makes constant DNS requests to the DNS server that belongs to an attacker, this type of C2 communication is also known as DNS Tunneling.
+
+## Exfilration/Actions on objectives
+
+With hands-on keyboard access, the attacker can achieve the following:
+
+- Collect the credentials from users.
+- Perform privilege escalation (gaining elevated access like domain administrator access from a workstation by exploiting the misconfiguration).
+- Internal reconnaissance (for example, an attacker gets to interact with internal software to find its vulnerabilities).
+- Lateral movement through the company's environment.
+- Collect and exfiltrate sensitive data.
+- Deleting the backups and shadow copies. Shadow Copy is a Microsoft technology that can create backup copies, snapshots of computer files, or volumes.
+- Overwrite or corrupt data.
