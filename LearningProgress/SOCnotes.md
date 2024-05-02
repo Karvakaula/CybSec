@@ -14,6 +14,8 @@
 - APTs = Advanced Persistent Threats
 - RATs - Remote Access Tools
 - MITRE ATT&CK® = knowledge base of adversary tactics and techniques based on real-world scenarios
+- UKC = Unified kill chain
+- MITM = Man in the middle
 
 ## Responsibilities
 

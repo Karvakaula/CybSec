@@ -1,6 +1,6 @@
 # THM Certs
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/Leevi.Kauranen.png" alt="TryHackMe">
+
 
 ## Introduction to cyber security
 

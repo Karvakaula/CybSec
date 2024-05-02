@@ -5,7 +5,7 @@ Welcome to my CybSec repository! Here, I document my journey towards becoming a 
 ## Learning Progress
 
 ### [Progress](./LearningProgress/Progress.md)
-
+![tryhackme stats](https://raw.githubusercontent.com/<SET_USERNAME_HERE>/<SET_USERNAME_HERE>/master/assets/thm_propic.png)
 ### [TryHackMe paths](./LearningProgress/THM_certs/certs.md)
 
 This document tracks my overall progress in learning cybersecurity concepts, tools, and techniques, and also my TryHackMe progress.
