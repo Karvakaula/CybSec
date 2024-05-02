@@ -73,3 +73,8 @@ I come into this journey with a foundation in several key areas:
 
 - almost finished pre security path
 - finished introduction to cyber security path
+
+### [2.5.2024]
+
+- completed pre security path
+- continue with SOC level 1 path
