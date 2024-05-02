@@ -148,3 +148,29 @@ in this task we review a report from security vendors analysis on malicious samp
 ![alt text](image-12.png)
 
 ## Network Artifacts
+
+A network artifact can be a user-agent string, C2 information, or URI patterns followed by the HTTP POST requests.An attacker might use a User-Agent string that hasn’t been observed in your environment before or seems out of the ordinary. The User-Agent is defined by RFC2616 as the request-header field that contains the information about the user agent originating the request.
+
+Network artifacts can be detected in Wireshark PCAPs (file that contains the packet data of a network) by using a network protocol analyzer such as TShark or exploring IDS (Intrusion Detection System) logging from a source such as Snort.
+
+## Tools
+
+attackers use macro documents (maldocs) for spearphishing attempts, a backdoor that can be used to establish C2 (Command and Control Infrastructure), any custom .EXE, and .DLL files, payloads, or password crackers.
+
+Antivirus signatures, detection rules, and YARA rules can be great weapons for you to use against attackers at this stage.
+
+MalwareBazaar and Malshare are good resources.
+
+- provice access to samples
+- malicious feeds
+- YARA results
+
+**detection rules**
+
+- SOC Prime Threat DEtection Marketplace is a good platform for detection rules for different kinds of threats, including latest CVE's
+
+**Fuzzy Hashing / context triggered piecewise hashes**
+
+- helps to perform similarity analysis
+- match two files with minor differences based on the fuzzy hash values.
+- complete explanation : https://ssdeep-project.github.io/ssdeep/index.html

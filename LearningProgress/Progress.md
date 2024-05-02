@@ -41,7 +41,8 @@ I come into this journey with a foundation in several key areas:
 
 ## Try hack me paths
 
-[] pre security, currently 75%
+[proofs](.\LearningProgress\THM_certs\certs.md)
+[x] pre security
 [x] introduction to Cyber Security
 [] SOC Level 1, currently 5%
 
