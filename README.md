@@ -6,7 +6,7 @@ Welcome to my CybSec repository! Here, I document my journey towards becoming a 
 
 ### [Progress](./LearningProgress/Progress.md)
 
-![tryhackme stats](https://raw.githubusercontent.com/leevi.kauranen/leevi.kauranen/master/assets/thm_propic.png)
+![tryhackme stats](https://raw.githubusercontent.com/lKarvakaula/Karvakaula/master/assets/thm_propic.png)
 
 ### [TryHackMe paths](./LearningProgress/THM_certs/certs.md)
 
