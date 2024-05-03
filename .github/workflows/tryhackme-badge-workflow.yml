@@ -10,8 +10,8 @@ jobs:
     name: Update this repo's tryhackme badge with the latest tryhackme image badge
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: p4p1/tryhackme-badge-workflow@main
+      - name: TryHackMe Badge Workflow
+      - uses: p4p1/tryhackme-badge-workflow@1.0.0    
         with:
           username: "Leevi.Kauranen"
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
