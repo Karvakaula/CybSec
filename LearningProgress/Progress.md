@@ -33,6 +33,7 @@ I come into this journey with a foundation in several key areas:
 
 ## Current Progress
 
+- learned MITRE ATT&ck framework fundamendals
 - Completed networking fundamentals course.
 - Currently studying towards Google professional CybSec certification
 - tryHackme

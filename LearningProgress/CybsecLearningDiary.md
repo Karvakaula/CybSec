@@ -78,3 +78,8 @@ I come into this journey with a foundation in several key areas:
 
 - completed pre security path
 - continue with SOC level 1 path
+
+### [3.5.2024-6.5.2024]
+
+- been duing SOC level 1 path of THM
+- learning MITRE frameworks and projects and how to use them
