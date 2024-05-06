@@ -2,7 +2,7 @@
 
 I come into this journey with a foundation in several key areas:
 
-- **OS familiarity**: already comfortable with linux, its cmd and commands.
+- **OS familiarity**: already comfortable with linux, its cmd and commands, also windows and macOS.
 - **Cryptography**: Gained knowledge about cryptography through my school's cryptography course.
 - **Networking**: Acquired a solid foundation in networking through my networks course.
 
@@ -45,7 +45,7 @@ I come into this journey with a foundation in several key areas:
 [proofs](./LearningProgress/THM_certs/certs.md)
 [x] pre security
 [x] introduction to Cyber Security
-[] SOC Level 1, currently 5%
+[] SOC Level 1, currently 10%
 
 ## Projects
 
